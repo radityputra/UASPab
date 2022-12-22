@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@drawable/bglibrary"
+    tools:context=".activities.HomeActivity"
+    android:orientation="vertical">
+
+
+<!--        <pl.droidsonroids.gif.GifImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/aesthethic"-->
+<!--            />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:fontFamily="cursive"
+            android:background="@drawable/animation"
+            app:backgroundTint="@null"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:maxWidth="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Random Quotes"
+            android:textSize="24dp"
+
+android:background="@drawable/ripple_effect_text"
+
+            app:backgroundTint="@null"
+
+
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="24dp"
+           />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_quote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Quotes List"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/ripple_effect_text"
+
+            app:backgroundTint="@null"
+            android:layout_marginLeft="12dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/ripple_effect_text"
+
+            app:backgroundTint="@null"
+            android:text="Author List"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ripple_effect_text"
+
+            app:backgroundTint="@null"
+            android:text="Tags List"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="About Us"
+            android:background="@drawable/ripple_effect_text1"
+
+
+            android:textSize="24dp"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@null"
+
+            android:textColor="@color/white"
+
+
+
+            />
+
+
+
+</LinearLayout>

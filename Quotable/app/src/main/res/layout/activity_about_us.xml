@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AboutUsActivity"
+   >
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/original"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:layout_marginTop="36dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:src="@drawable/panahbalik"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Billy Franko \n2125250021"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="360dp"
+        android:gravity="center"
+        android:src="@drawable/fotolumbalumba2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nicholas Wilyanto \n2125250043"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_marginTop="570dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/ib_balik"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/panahbalik" />
+
+
+</RelativeLayout>
